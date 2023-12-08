@@ -1,0 +1,59 @@
+body{
+background-image:url(https://tse1.mm.bing.net/th?id=OIP.ArrXG3Sq57IByT7_YyLNygHaEK&pid=Api&P=0&h=180);
+  background-size: cover;
+    background-repeat: no-repeat;
+}
+#head{
+    background-color:red;
+    color:rgb(0, 251, 255);
+    font-weight: bold;
+}
+.note{
+    color:gold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+canvas{
+    canvas{
+        border:5px solid white;
+        border-radius: 20px;
+        animation-name: example;
+        animation-duration: 5s;
+        margin-top:50px;
+        animation-iteration-count: infinite;
+    }
+    @keyframes example{
+        from{
+            box-shadow: 1px 1px 38px canvas{
+                border:5px solid white;
+                border-radius: 20px;
+                animation-name: example;
+                animation-duration: 5s;
+                margin-top:62px;
+                animation-iteration-count: infinite;
+            }
+            @keyframes example{
+                from{
+                    box-shadow: 1px 1px 38px rgb(255, 0, 204);
+                }
+                to{
+                    box-shadow: 1px 1px 38px  rgb(251, 255, 0);
+                }
+            }
+        }
+    }
+}
+#disc_img{
+    width: 180px;
+    height: 200px;    
+}
+#disc_img2{
+    width: 180px;
+    height: 200px;
+}
+.label_dis{
+    color: green;
+    background-color: gold;
+    width: 200px;
+    font-size: 20px;
+}
